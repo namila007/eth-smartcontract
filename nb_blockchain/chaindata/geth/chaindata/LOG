@@ -1,0 +1,40 @@
+=============== Jul 29, 2018 (DST) ===============
+19:05:39.710295 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+19:05:39.780501 db@open opening
+19:05:39.829257 version@stat F·[] S·0B[] Sc·[]
+19:05:39.850531 db@janitor F·2 G·0
+19:05:39.850598 db@open done T·70.027ms
+=============== Jul 29, 2018 (DST) ===============
+19:06:05.582128 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+19:06:05.582903 version@stat F·[] S·0B[] Sc·[]
+19:06:05.582967 db@open opening
+19:06:05.583184 journal@recovery F·1
+19:06:05.593350 journal@recovery recovering @1
+19:06:05.631534 memdb@flush created L0@2 N·9 S·548B "H/\xb1..\xf0\x18\x1a,v3":"r\x00\x00..\xf0\x18\x1a,v5"
+19:06:05.642093 version@stat F·[1] S·548B[548B] Sc·[0.25]
+19:06:05.728866 db@janitor F·3 G·0
+19:06:05.728949 db@open done T·145.923ms
+19:06:08.045445 db@close closing
+19:06:08.045878 db@close done T·429µs
+=============== Jul 29, 2018 (DST) ===============
+19:07:01.525048 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+19:07:01.525655 version@stat F·[1] S·548B[548B] Sc·[0.25]
+19:07:01.525691 db@open opening
+19:07:01.525847 journal@recovery F·1
+19:07:01.543661 journal@recovery recovering @3
+19:07:01.618589 memdb@flush created L0@5 N·2 S·238B "Dat..ion,v11":"Las..der,v12"
+19:07:01.622613 version@stat F·[2] S·786B[786B] Sc·[0.50]
+19:07:01.652412 db@janitor F·4 G·0
+19:07:01.652522 db@open done T·126.755ms
+=============== Jul 29, 2018 (DST) ===============
+19:07:14.928204 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+19:07:14.928840 version@stat F·[2] S·786B[786B] Sc·[0.50]
+19:07:14.928877 db@open opening
+19:07:14.929039 journal@recovery F·1
+19:07:14.936825 journal@recovery recovering @6
+19:07:15.048921 memdb@flush created L0@8 N·1 S·301B "eth..\xf0\x18\x1a,v14":"eth..\xf0\x18\x1a,v14"
+19:07:15.060557 version@stat F·[3] S·1KiB[1KiB] Sc·[0.75]
+19:07:15.090798 db@janitor F·5 G·0
+19:07:15.090883 db@open done T·161.964ms
+19:07:17.837361 db@close closing
+19:07:17.842293 db@close done T·4.657ms
